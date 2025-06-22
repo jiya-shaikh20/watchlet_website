@@ -1,0 +1,58 @@
+[
+  {
+    "category": "men",
+    "title": "Curren Chain Steel Watch",
+    "brand": "CURREN",
+    "image": "images/watch.png",
+    "description": "Perfect and maximal dial with stainless steel for inspirable personalities.",
+    "details": "Water-resistant up to 50m, quartz movement, 2-year warranty included.",
+    "price": 780
+  },
+  {
+    "category": "men",
+    "title": "Gold-Stainless Steel Watch",
+    "brand": "TITAN",
+    "image": "images/image.png",
+    "description": "For daily wear with accuracy.",
+    "details": "Elegant gold finish with date display and scratch-proof glass.",
+    "price": 950
+  },
+  {
+    "category": "men",
+    "title": "Square Dial Watch",
+    "brand": "CITIZEN",
+    "image": "images/watch2.png",
+    "description": "Stylish and strong stainless steel watch for daily elegance.",
+    "details": "Sapphire crystal glass with leather strap and luminous hands.",
+    "price": 678
+  },
+  {
+    "category": "women",
+    "title": "Pink Leather Watch",
+    "brand": "SHEPARD",
+    "image": "images/watch3.png",
+    "description": "Simple dial with cute background and soft leather straps.",
+    "details": "Perfect for casual wear, comes with 1 extra pink strap.",
+    "price": 589,
+    "new": true
+  },
+  {
+    "category": "women",
+    "title": "White Pearl Watch",
+    "brand": "ADERTICA",
+    "image": "images/watch4.png",
+    "description": "White dial with pearl inset and white chain, fashionable design.",
+    "details": "Crystal-lined rim, delicate casing, and minimalist face.",
+    "price": 570
+  },
+  {
+    "category": "women",
+    "title": "Simple Elegant Watch",
+    "brand": "TERJAN",
+    "image": "images/watches5.png",
+    "description": "Simple dark pink chain watch with decent dial.",
+    "details": "Lightweight and elegant, includes matching bracelet.",
+    "price": 890,
+    "new": true
+  }
+]

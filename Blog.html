@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>About Us - Watchlet</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      padding-top: 80px;
+      font-family: 'Open Sans', sans-serif;
+      background-color: #f9f9f9;
+      color: #222;
+      line-height: 1.6;
+    }
+    header {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: #111827;
+      padding: 1rem 2rem;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      z-index: 999;
+    }
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 1.5rem;
+      margin: 0;
+    }
+    header nav a {
+      color: white;
+      margin: 0 1rem;
+      text-decoration: none;
+    }
+    .container {
+      max-width: 1100px;
+      margin: 3rem auto;
+      padding: 2rem;
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    }
+    h2.section-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      color: #222;
+      margin-bottom: 1rem;
+      border-left: 5px solid #c59d5f;
+      padding-left: 1rem;
+    }
+    .highlight {
+      color: #c59d5f;
+      font-weight: bold;
+    }
+    .about-text {
+      line-height: 1.8;
+      font-size: 1.05rem;
+      margin-bottom: 1.5rem;
+    }
+    .image-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      margin: 2rem 0;
+    }
+    .image-row img {
+      flex: 1 1 300px;
+      border-radius: 8px;
+      width: 100%;
+      object-fit: cover;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+    }
+    footer {
+      background-color: #111827;
+      color: #d1d5db;
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.875rem;
+      margin-top: 2rem;
+    }
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 1.3rem;
+      }
+      .image-row {
+        flex-direction: column;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header style="position: fixed; top: 0; width: 100%; background-color: #111827; padding: 1rem 2rem; color: white; display: flex; justify-content: space-between; align-items: center; z-index: 999;">
+  <div style="display: flex; align-items: center; gap: 0.75rem;">
+    <img src="assets/logo-dark.png" alt="Watchlet Logo" style="height: 36px;">
+    <h1 style="font-family: 'Playfair Display', serif; font-size: 1.5rem; margin: 0;">Watchlet</h1>
+  </div>
+  <nav style="display: flex; flex-wrap: wrap; gap: 1.5rem; justify-content: flex-end; align-items: center;">
+    <a href="Blog.html" style="color: white; text-decoration: none;">Home</a>
+    <a href="Men.html" style="color: white; text-decoration: none;">Men</a>
+    <a href="Women.html" style="color: white; text-decoration: none;">Women</a>
+    <a href="About.html" style="color: white; text-decoration: none;">About</a>
+    <a href="Contact.html" style="color: white; text-decoration: none;">Contact</a>
+  </nav>
+</header>
+
+  <div class="container">
+    <h2 class="section-title">Who We Are</h2>
+    <p class="about-text">
+      Welcome to <span class="highlight">Watchlet</span> – where time meets craftsmanship. Born from a passion for luxury and precision, our brand blends timeless tradition with cutting-edge style. Every watch we design is a testament to elegance, durability, and purpose.
+    </p>
+
+    <h2 class="section-title">Our Mission</h2>
+    <p class="about-text">
+      Our goal is simple: to create timepieces that not only tell time but tell your story. Whether you're dressing for a boardroom or a weekend getaway, Watchlet is here to complement your moment.
+    </p>
+
+    <div class="image-row">
+      <img src="https://images.unsplash.com/photo-1518544801371-75a5c9c0f6f6?auto=format&fit=crop&w=800&q=80" alt="Crafting Watch">
+      <img src="https://images.unsplash.com/photo-1602524815916-762c3e8022a6?auto=format&fit=crop&w=800&q=80" alt="Watch Style">
+    </div>
+
+    <h2 class="section-title">Our Promise</h2>
+    <p class="about-text">
+      With each collection, we promise sophistication, authenticity, and a touch of bold innovation. Join thousands of watch enthusiasts who trust Watchlet to define their moments.
+    </p>
+  </div>
+
+  <footer>
+    © 2025 Watchlet. All rights reserved.
+  </footer>
+</body>
+</html>

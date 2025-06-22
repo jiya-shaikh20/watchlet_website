@@ -1,0 +1,299 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --primary-color: #ffb667;
+  --text-dark: #2d2b2c;
+  --text-light: #767268;
+  --white: #ffffff;
+  --max-width: 1200px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.section__container {
+  max-width: var(--max-width);
+  margin: auto;
+  padding: 5rem 1rem;
+}
+
+.section__header {
+  position: relative;
+  isolation: isolate;
+  padding-top: 1rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: var(--text-dark);
+  text-align: center;
+}
+
+.section__header::before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  max-width: 4rem;
+  height: 2px;
+  background: var(--primary-color);
+}
+
+.btn {
+  max-width: fit-content;
+  padding: 1rem 2rem;
+  outline: none;
+  border: none;
+  font-size: .8rem;
+  font-weight: 400;
+  color: var(--white);
+  background-color: var(--text-dark);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.btn:hover {
+  box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.2);
+}
+
+img {
+  display: flex;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+ul {
+  list-style: none;
+}
+
+html, body {
+  font-family: "Poppins", sans-serif;
+}
+
+.header__container {
+  display: grid;
+  max-width: var(--max-width);
+  margin-inline: auto;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 9;
+}
+
+.nav__header {
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: var(--text-dark);
+}
+
+.nav__logo img {
+  max-width: 50px;
+}
+
+.logo-dark {
+  display: none;
+}
+
+.nav__menu__btn {
+  font-size: 1.5rem;
+  color: var(--white);
+  cursor: pointer;
+}
+
+.nav__links {
+  position: absolute;
+  top: 65px;
+  left: 0;
+  width: 100%;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  background-color: var(--text-dark);
+  transform: translateY(-100%);
+  transition: .5s;
+  z-index: -1;
+}
+
+.nav__links.open {
+  transform: translateY(0);
+}
+
+.nav__links a {
+  font-weight: 500;
+  color: var(--white);
+}
+
+.nav__links a:hover {
+  color: var(--primary-color);
+}
+
+.nav__icons {
+  display: flex;
+  align-items: center;
+}
+
+.nav__icons i {
+  margin-right: 20px;
+  color: var(--text-dark);
+  font-size: 1.5rem;
+  transition: all .3s ease;
+}
+
+.nav__icons i:hover {
+  color: var(--primary-color); 
+}
+
+.header__image {
+  background-color: var(--primary-color);
+}
+
+.header__image img {
+  padding-block: 5rem;
+  max-width: 400px;
+  margin-inline: auto;
+}
+
+.header__content {
+  padding: 1rem;
+}
+
+.header__content h1 {
+  margin-bottom: 1rem;
+  font-size: 3.75rem;
+  font-weight: 600;
+  line-height: 4.25rem;
+  color: var(--text-dark);
+}
+
+.header__content p {
+  margin-bottom: 1rem;
+  color: var(--text-light);
+}
+
+.header__content h4 {
+  margin-bottom: 2rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.header__btns {
+  display: flex;
+  align-items: center;
+}
+
+.header__btns .discover {
+  background-color: var(--text-light);
+}
+
+.feature__grid {
+  margin-top: 4rem;
+  display: grid;
+  gap: 1rem;
+}
+
+.feature__card {
+  position: relative;
+  padding: 2rem 1rem;
+  text-align: center;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  transition: 0.3s;
+}
+
+.feature__card:hover {
+  box-shadow: 5px 5px 40px rgba(0, 0, 0, 0.2);
+}
+
+.feature__card span {
+  position: absolute;
+  left: 0;
+  transform: translateY(-100%) rotate(-90deg);
+  transform-origin: top right;
+  padding: 5px 1rem;
+  font-size: 1rem;
+  font-weight: 500;
+  color: var(--white);
+  background: var(--primary-color);
+}
+
+.feature__card img {
+  max-height: 250px;
+  margin-inline: auto;
+  margin-bottom: 1rem;
+}
+
+.feature__card h4 {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--text-dark);
+}
+
+.feature__card p {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--primary-color);
+}
+
+.feature__card .btn {
+  display: none;
+}
+
+.feature__card:hover .btn {
+  display: inline-block;
+}
+
+.card {
+  padding: 1rem;
+  border: 1px solid #eee;
+  box-shadow: 2px 2px 10px rgba(0,0,0,0.1);
+  text-align: center;
+  background-color: white;
+  transition: 0.3s;
+}
+.card:hover {
+  box-shadow: 5px 5px 30px rgba(0,0,0,0.2);
+}
+.card img {
+  max-height: 200px;
+  object-fit: contain;
+}
+.card .title {
+  font-weight: 600;
+  color: var(--text-dark);
+}
+.card .description {
+  color: var(--text-light);
+  margin: 0.5rem 0;
+}
+.learn-more {
+  color: var(--primary-color);
+  font-weight: 500;
+  display: inline-block;
+  margin-top: 0.5rem;
+  cursor: pointer;
+}
+
+#mensContainer,
+#womensContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 2rem;
+  padding: 2rem 0;
+}
+
+/* Continue the rest of your sections (story, arrival, client, footer) as you already have — no change needed for most */

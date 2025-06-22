@@ -1,0 +1,11 @@
+/* ... existing CSS ... */
+
+.filter__box select,
+.sort__box select {
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+  background-color: var(--white);
+  color: var(--text-dark);
+}
